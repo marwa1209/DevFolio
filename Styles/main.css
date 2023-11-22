@@ -23,14 +23,18 @@ h5 {
 h5:before {
   content: "";
   position: absolute;
-  height: 3px;
+  height: 4px;
   background-color: #0078ff;
-  width: 70%;
+  width: 100px;
   bottom: -12px;
 }
 .progress {
   background-color: #cde1f8;
   height: 0.7rem;
+}
+input ,textarea{
+  padding: 10px 15px;
+  font-size: 14px !important;
 }
 /* nav */
 nav.navbar {
@@ -191,7 +195,7 @@ nav.navbar-dark .logo {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 60vh;
+  padding-block: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -287,15 +291,42 @@ nav.navbar-dark .logo {
   width: 32px;
   height: 32px;
 }
-#blog .card .card-body .category {
+#blog .card picture .category {
   position: absolute;
-  top: 57%;
+  top: 100%;
   left: 50%;
   font-size: 15px;
-  transform: translate(-50%);
+  transform: translate(-50% ,-50%);
   color: #fff;
   padding: 5px 15px;
   overflow: hidden;
   background-color: #0078ff;
   border-radius: 4px;
+}
+
+#contact{
+  background-image: linear-gradient(
+    rgba(0, 119, 255, 0.7),
+    rgba(0, 119, 255, 0.7)
+  ),
+  url(../images/overlay-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+padding-top: 70px;
+}
+#contact .row{
+  background-color: #fff;
+}
+#contact .row .form-button{
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition:all 0.4s;
+  cursor: pointer;
+}
+#contact .row .form-button:hover{
+  background: #3393ff;
+  box-shadow: 0 0 0 4px #cde1f8;
 }

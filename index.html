@@ -108,10 +108,10 @@
           <div class="col-md-6 py-3">
             <div class=" left-section ">
               <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5 col-sm-6 pb-4">
                   <img class="img-fluid rounded " src="./images/testimonial-2.jpg" alt="testimonial-2">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 col-sm-6">
                   <p><span class="title fw-bold ">Name:</span> Morgan Freeman</P>
                   <P><span class="title fw-bold">Profile:</span> full stack developer</P>
                   <P><span class="title fw-bold">Email:</span> contact@example.com</P>
@@ -263,7 +263,7 @@
     <div class="section-counter ">
       <div class="container ">
         <div class="row">
-          <div class="col-sm-12 col-md-3">
+          <div class="col-sm-12 col-md-3 pb-4">
             <div class="counter-block text-light  text-center ">
               <div class="counter-icon mb-3 ">
                 <span class="circle-icon rounded-circle"><i class="bi bi-check"></i></span>
@@ -276,7 +276,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-3">
+          <div class="col-sm-12 col-md-3 pb-4">
             <div class="counter-block text-light  text-center ">
               <div class="counter-icon mb-3 ">
                 <span class="circle-icon rounded-circle"><i class="bi bi-journal-richtext"></i></span>
@@ -289,7 +289,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-3">
+          <div class="col-sm-12 col-md-3 pb-4">
             <div class="counter-block text-light  text-center ">
               <div class="counter-icon mb-3 ">
                 <span class="circle-icon rounded-circle"><i class="bi bi-people"></i></span>
@@ -302,7 +302,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-3">
+          <div class="col-sm-12 col-md-3 pb-4">
             <div class="counter-block text-light  text-center ">
               <div class="counter-icon mb-3 ">
                 <span class="circle-icon rounded-circle"><i class="bi bi-award"></i></span>
@@ -482,9 +482,10 @@
         <div class="row">
           <div class="col-md-4 col-sm-12 pt-3 pb-5  ">
             <div class="card position-relative">
-              <img class="card-img-top " src="./images/post-1.jpg" alt="post-1">
+              <picture class="position-relative"><img class="card-img-top " src="./images/post-1.jpg" alt="post-1">
+                <div class="category text-capitalize">travel</div>
+              </picture>
               <div class="card-body   ">
-                <div class="category">Travel</div>
                 <a href="#" class="card-title text-decoration-none text-dark fw-semibold fs-5 mb-5">See more ideas about
                   Travel</a>
                 <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
@@ -505,10 +506,11 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-12 pt-3 pb-5 ">
-            <div class="card position-relative">
-              <img class="card-img-top" src="./images/post-2.jpg" alt="post-2">
+            <div class="card ">
+              <picture class="position-relative"> <img class="card-img-top" src="./images/post-2.jpg" alt="post-2">
+                <div class="category text-capitalize">web design</div>
+              </picture>
               <div class="card-body ">
-                <div class="category">Web Design</div>
                 <a href="#" class="card-title text-decoration-none text-dark fw-semibold fs-5 mb-5 ">See more ideas
                   about Travel</a>
                 <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
@@ -529,10 +531,13 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-12 pt-3 pb-5 ">
-            <div class="card position-relative">
-              <img class="card-img-top" src="./images/post-3.jpg" alt="post-3">
+            <div class="card ">
+              <picture class="position-relative"><img class="card-img-top" src="./images/post-3.jpg" alt="post-3">
+                <div class="category text-capitalize">Web Design</div>
+              </picture>
+
               <div class="card-body ">
-                <div class="category">Web Design</div>
+
                 <a href="#" class="card-title text-decoration-none text-dark fw-semibold fs-5 mb-5">See more ideas about
                   Travel</a>
                 <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
@@ -556,6 +561,50 @@
       </div>
     </section>
     <!-- end blog-section -->
+    <!-- start contact-section -->
+    <section id="contact" >
+      <div class="container pb-5 pt-5">
+        <div class="row  p-5 box-shadow">
+          <div class="col-md-6">
+            <div class="contact-title pb-5">
+              <h5 class="fs-2">
+                Send Message Us
+              </h5>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="form-group">
+              <input  type="text" name="name" class="form-control rounded-0" id="name" placeholder="Your Name" required="" >
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="form-group">
+              <input type="email" class="form-control rounded-0  " name="email" id="email" placeholder="Your Email" required="" >
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="form-group">
+              <input type="text" class="form-control rounded-0" name="subject" id="subject" placeholder="Subject" required="" >
+            </div>
+          </div>
+          <div class="col-md-12 mb-4">
+            <div class="form-group">
+              <textarea class="form-control rounded-0" name="message" rows="5" placeholder="Message" required=""></textarea>
+            </div>
+          </div>
+          <div class="col-md-12 text-center mt-4">
+            <button type="submit" class="form-button rounded-pill fs-5" >Send Message</button>
+          </div>
+        </div>
+          <div class="col-md-6">
+            <div class="contact-title pb-5">
+              <h5 class="fs-2" >  Get in Touch</h5>
+
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact -->
   </main>
   <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
