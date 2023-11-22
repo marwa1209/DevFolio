@@ -36,6 +36,9 @@ input ,textarea{
   padding: 10px 15px;
   font-size: 14px !important;
 }
+.box-shadow {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
 /* nav */
 nav.navbar {
   transition: all 0.5s;
@@ -136,9 +139,7 @@ nav.navbar-dark .logo {
   font-size: 4rem;
   font-weight: 600;
 }
-.box-shadow {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 /* services */
 #services .services-title {
@@ -330,3 +331,30 @@ padding-top: 70px;
   background: #3393ff;
   box-shadow: 0 0 0 4px #cde1f8;
 }
+#contact .row .more-info ul li i{
+ color: #3393ff;
+}
+#contact .row .icons ul li {
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all .5s ease;
+ }
+ #contact .row .icons ul li:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all .5s ease;
+ }
+ #contact .row .icons ul li:hover span{
+  color: #fff;
+ }
+#contact .row .icons ul li a span {
+  color: #1e1e1e;
+  transition: color .5s ease-in-out;
+ }
+
