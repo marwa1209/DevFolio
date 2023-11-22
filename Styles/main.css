@@ -331,8 +331,8 @@ padding-top: 70px;
   background: #3393ff;
   box-shadow: 0 0 0 4px #cde1f8;
 }
-#contact .row .more-info ul li i{
- color: #3393ff;
+#contact .row .more-info li i {
+  color: #0078ff;
 }
 #contact .row .icons ul li {
   height: 40px;
