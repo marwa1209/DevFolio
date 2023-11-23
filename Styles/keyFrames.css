@@ -1,0 +1,221 @@
+@keyframes typed{
+    /* Designer */
+    0%{
+        content: "D";
+    }
+    1.5%{
+        content: "De";
+    }
+    3%{
+        content: "Dev";
+    }
+    4.5%{
+        content: "Deve";
+    }
+    6%{
+        content: "Devel";
+    }
+    7.5%{
+        content: "Develo";
+    }
+    9%{
+        content: "Develop";
+    }
+    10.5%{
+        content: "Develope";
+    }
+    12%{
+        content: "Developer";
+    }
+    13.5%{
+        content: "Develope";
+    }
+    15%{
+        content: "Develop";
+    }
+    16.5%{
+        content: "Develo";
+    }
+    18%{
+        content: "Devel";
+    }
+    19.5%{
+        content: "Deve";
+    }
+    21%{
+        content: "Dev";
+    }
+    22.5%{
+        content: "De";
+    }
+    /* Designer */
+    24%{
+        content: "Des";
+    }
+    25.5%{
+        content: "Desi";
+    }
+    27%{
+        content: "Desig";
+    }
+    28.5%{
+        content: "Design";
+    }
+    30%{
+        content: "Designe";
+    }
+    31.5%{
+        content: "Designer";
+    }
+    33%{
+        content: "Designe";
+    }
+    34.5%{
+        content: "Design";
+    }
+    36%{
+        content: "Desig";
+    }
+    37.5%{
+        content: "Desi";
+    }
+    39%{
+        content: "Des";
+    }
+    40.5%{
+        content: "De";
+    }
+    42%{
+        content: "D";
+    }
+    /* Frelancer */
+    43.5%{
+        content: "";
+    }
+    45%{
+        content: "F";
+    }
+    46.5%{
+        content: "Fr";
+    }
+    48%{
+        content: "Fre";
+    }
+    49.5%{
+        content: "Frel";
+    }
+    51%{
+        content: "Frela";
+    }
+    52.5%{
+        content: "Frelan";
+    }
+    54%{
+        content: "Frelanc";
+    }
+    55.5%{
+        content: "Frelance";
+    }
+    57%{
+        content: "Frelancer";
+    }
+    58.5%{
+        content: "Frelance";
+    }
+    60%{
+        content: "Frelanc";
+    }
+    61.5%{
+        content: "Frelan";
+    }
+    63%{
+        content: "Frela";
+    }
+    64.5%{
+        content: "Frel";
+    }
+    66%{
+        content: "Fre";
+    }
+    67.5%{
+        content: "Fr";
+    }
+    69%{
+        content: "F";
+    }
+    70.5%{
+        content: "";
+    }
+    /* photofrapher */
+    72%{
+        content: "P";
+    }
+    73.5%{
+        content: "Ph";
+    }
+    75%{
+        content: "Pho";
+    }
+    76.5%{
+        content: "Phot";
+    }
+    78%{
+        content: "Photo";
+    }
+    79.5%{
+        content: "Photog";
+    }
+    81%{
+        content: "Photogr";
+    }
+    82.5%{
+        content: "Photograp";
+    }
+    84%{
+        content: "Photograph";
+    }
+    85.5%{
+        content: "Photographe";
+    }
+    87%{
+        content: "Photographer";
+    }
+    88.5%{
+        content: "Photographe";
+    }
+    90%{
+        content: "Photograph";
+    }
+    91.5%{
+        content: "Photograp";
+    }
+    93%{
+        content: "Photogra";
+    }
+    94%{
+        content: "Photogr";
+    }
+    95.5%{
+        content: "Photog";
+    }
+    96.5%{
+        content: "Photo";
+    }
+    97%{
+        content: "Phot";
+    }
+    97.5%{
+        content: "Pho";
+    }
+    98%{
+        content: "Ph";
+    }
+    99%{
+        content: "P";
+    }
+    100%{
+        content: "";
+    }
+
+
+}
